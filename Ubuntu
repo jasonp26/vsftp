@@ -1,0 +1,12 @@
+#This shows you how to install VSFTP (the 'd' stands for damon) on your Ubuntu Server. This is for version 16.04
+#From your command line
+
+
+> sudo apt-get install vsftpd
+
+
+#Enter your root password then hit enter.  You will be asked if you want to install the packages press 'y' to confirm the install.
+
+#Afterwards you will have installed the software. 
+
+#Check my other file on how to check the Ubuntu Firewall Status.
