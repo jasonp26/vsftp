@@ -14,17 +14,13 @@ Status: active
 
 To                         Action      From
 --                         ------      ----
-Nginx HTTP                 ALLOW       Anywhere
-22                         ALLOW       Anywhere
 21                         ALLOW       Anywhere
-22 (v6)                    ALLOW       Anywhere (v6)
 21 (v6)                    ALLOW       Anywhere (v6)
 
 #LINES 25 and 26 are the important ones related to the VSFTPD damon.  In the above example I have an enabled firewall
 and i had to allow the service through.  To do this you must type:
 
-sudo ufw allow 22
-sudo ufw allow 21
+>>> sudo ufw allow 21
 
 #That will now allow you to gain access to your VSFTP service.  However it may need more hardening if you wish to only
 #allow access from a specific IP Range/Address
