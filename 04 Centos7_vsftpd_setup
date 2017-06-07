@@ -1,1 +1,9 @@
+#Run the below command to install vsftpd on your Centos Server
 
+>>> sudo yum install vsftpd
+
+#Accept the package contents and it will install for you.
+
+#To remove type:
+
+>>> sudo yum remove vsftpd
