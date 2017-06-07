@@ -2,7 +2,7 @@
 #From your command line
 
 
-> sudo apt-get install vsftpd
+>>> sudo apt-get install vsftpd
 
 
 #Enter your root password then hit enter.  You will be asked if you want to install the packages press 'y' to confirm the install.
